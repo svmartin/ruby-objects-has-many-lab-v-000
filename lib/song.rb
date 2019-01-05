@@ -13,4 +13,8 @@ class Song
   def artist
     @artist
   end
+
+  self.song_count
+    @@song_count
+  end
 end
