@@ -11,10 +11,6 @@ class Artist
     self.songs << temp_song
   end
 
-  def songs
-    @songs
-  end
-
   def song_count
     Songs.all.count
   end
