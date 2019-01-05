@@ -1,9 +1,9 @@
 class Song
-  @@song_count = 0
+  @@all = []
 
   def initialize(song)
     @song = song
-    @@song_count += 1
+    @@all << song
   end
 
   def artist=(artist)
@@ -12,5 +12,9 @@ class Song
 
   def artist
     @artist
+  end
+
+  def Song.all
+    @@all
   end
 end
