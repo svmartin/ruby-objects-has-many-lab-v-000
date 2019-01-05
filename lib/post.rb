@@ -1,10 +1,10 @@
 class Post
 
-  @@all
+  @@all = []
 
   def initialize(title)
     @title = title
-    # @@all.push(self)
+    @@all.push(self)
   end
 
   def author=(author)
