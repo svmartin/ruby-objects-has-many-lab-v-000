@@ -16,6 +16,10 @@ class Song
     @artist
   end
 
+  def artist_name
+    if self.artist_name
+      
+
   def Song.all
     @@all
   end
