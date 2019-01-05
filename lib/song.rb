@@ -1,9 +1,9 @@
 class Song
   @@all = []
 
-  def initialize(song)
-    @song = song
-    @@all << song
+  def initialize(name)
+    @name = name
+    @@all << @name
   end
 
   def artist=(artist)
