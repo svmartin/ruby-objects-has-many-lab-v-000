@@ -4,7 +4,7 @@ class Post
 
   def initialize(title)
     @title = title
-    @@all.push(self)
+    # @@all.push(self)
   end
 
   def author=(author)
