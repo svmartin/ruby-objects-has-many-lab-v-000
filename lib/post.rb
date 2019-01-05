@@ -10,8 +10,13 @@ class Post
   def author=(author)
     @author = author
   end
+  
   def author
     @author
+  end
+
+  def author_name
+    #
   end
 
   def title
