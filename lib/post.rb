@@ -14,6 +14,10 @@ class Post
     @author
   end
 
+  def title
+    @title
+  end
+
   def self.all
     @@all
   end
