@@ -10,13 +10,13 @@ class Post
   def author=(author)
     @author = author
   end
-  
+
   def author
     @author
   end
 
   def author_name
-    #
+    author ? self.author.name : nil
   end
 
   def title
